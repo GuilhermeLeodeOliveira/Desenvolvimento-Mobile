@@ -1,0 +1,130 @@
+body{
+    background-color: black;
+    /*Colocar a imagem de fundo abaixo (qualquer coisa pesquise, é facinho de achar na w3schools) */
+    /* background-image: ; */
+}
+
+h1{
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+a{
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.btn-primeiro{
+    
+    color: #000;
+    background-color: #FFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+li{
+    color: #FFF;
+    list-style-type: none;
+    display: flex;
+}
+
+input{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button{
+    color: #FFF;
+    background-color: gray;
+}
+
+audio{
+    background-color: #FFF;
+}
+
+iframe{
+    height: 50px;
+    width: 100%;
+}
+.fundo-musicas{
+    background-color: aqua;
+    color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.rodape{
+    display: flex;
+    justify-content:space-around;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container-explore{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-explore{
+    background-color: #FFF;
+    color: #000;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.cu{
+    background-color: darkmagenta;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h2{
+    color: #FFF;
+    margin: 0;
+}
+
+.aff{
+    display: flex;
+}
+
+.ver{
+    
+}

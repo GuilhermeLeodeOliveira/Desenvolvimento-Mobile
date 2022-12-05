@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Cordova Camera</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="inicio.html" style="display: flex;">inicio</a></li>
+
+            <!-- COLOCAR IMAGEM DAS ESTRELINHAS LOGO ABAIXO (qualquer dúvida... PESQUISE)-->
+            <!-- LEMBRAR DE DIMINUIR O TAMANHO AQUI-->
+            <li><button type="button" id="btnTirarFoto">Tirar foto</button><br>
+                <div class="imag">
+                    <img src="" id="imgHtmlTag" width="10%" alt="aguardando img"></img>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+    <div class="container-explore">
+        <a href="curiosidades.html" class="btn-explore">
+            <!-- IMAGEM DA ESTRELINHA LOGO ABAIXO --> 
+            <img src="" alt="">
+            Curiosidades
+        </a>
+    
+        <a href="cantores.html" class="btn-explore">
+            <!-- IMAGEM DO MICROFONE LOGO ABAIXO-->  
+            <img src="" alt="">
+            Cantores
+        </a>
+    </div>
+    <section>
+        <ul class="rodape">
+            <li><a href="inicio.html"><img src="img/icons8-casa-50.png" alt=""><br> inicio</a></li>
+            <li><a href="explore.html" style="color: rgb(255, 251, 0);"><img src="img/icons8-planeta-terra-64.png"
+                        alt=""><br>explore</a></li>
+        </ul>
+    </section>
+
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
